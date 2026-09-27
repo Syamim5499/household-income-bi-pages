@@ -1,6 +1,5 @@
 {
   "survey_year": 2024,
-  "generated_utc": "2026-09-27T12:20:44+00:00",
   "medians": {
     "Malaysia": 7017,
     "Selangor": 10726,
@@ -617,11 +616,12 @@
     "m40": 5860,
     "t20": 12680
   },
-  "category_note": "National B40/M40/T20 cutoffs are rounded 2024 report thresholds; not Selangor thresholds.",
+  "category_note": "National B40/M40/T20 cutoffs: maximum P40/P80 income rounded to nearest RM10; not Selangor thresholds.",
   "sources": {
     "hh_income": "https://storage.dosm.gov.my/hies/hh_income.csv",
     "hh_income_state": "https://storage.dosm.gov.my/hies/hh_income_state.csv",
     "hh_income_district": "https://storage.dosm.gov.my/hies/hh_income_district.csv",
-    "hies_state_percentile": "https://storage.dosm.gov.my/hies/hies_state_percentile.csv"
+    "hies_state_percentile": "https://storage.dosm.gov.my/hies/hies_state_percentile.csv",
+    "hies_malaysia_percentile": "https://storage.dosm.gov.my/hies/hies_malaysia_percentile.csv"
   }
 }
