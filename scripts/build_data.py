@@ -5,16 +5,16 @@ import io
 import json
 import math
 import urllib.request
-from datetime import datetime, timezone
 from pathlib import Path
 
 BASE = 'https://storage.dosm.gov.my/hies/'
-NAMES = ('hh_income', 'hh_income_state', 'hh_income_district', 'hies_state_percentile')
+NAMES = ('hh_income', 'hh_income_state', 'hh_income_district', 'hies_state_percentile', 'hies_malaysia_percentile')
 REQUIRED = {
     'hh_income': {'date', 'income_median', 'income_mean'},
     'hh_income_state': {'date', 'state', 'income_median', 'income_mean'},
     'hh_income_district': {'date', 'state', 'district', 'income_median', 'income_mean'},
     'hies_state_percentile': {'date', 'state', 'percentile', 'variable', 'income'},
+    'hies_malaysia_percentile': {'date', 'percentile', 'variable', 'income'},
 }
 
 def fetch(name):
@@ -58,17 +58,23 @@ def build(datasets):
         bands.append({'percentile': p, **{v: number(stats[v]['income']) if stats[v]['income'] else None for v in stats}})
     if len(bands) != 100 or any(bands[i]['median'] > bands[i+1]['median'] for i in range(99)):
         raise ValueError('Incomplete or unsorted percentile distribution')
+    national_percentiles = datasets['hies_malaysia_percentile']
+    # Round the last income of D4/D8 (P40/P80 maximum) to the nearest RM10.
+    # This reproduces the 2024 published rounded thresholds: RM5,860/RM12,680.
+    m40 = round(number(only(national_percentiles, date=date, percentile='40', variable='maximum')['income']) / 10) * 10
+    t20 = round(number(only(national_percentiles, date=date, percentile='80', variable='maximum')['income']) / 10) * 10
+    if not 0 < m40 < t20:
+        raise ValueError('Invalid national thresholds')
     result = {
         'survey_year': year,
-        'generated_utc': datetime.now(timezone.utc).isoformat(timespec='seconds'),
         'medians': {'Malaysia': number(national['income_median']), 'Selangor': number(selangor['income_median']), 'Kuala Langat': number(kuala_langat['income_median'])},
         'means': {'Malaysia': number(national['income_mean']), 'Selangor': number(selangor['income_mean']), 'Kuala Langat': number(kuala_langat['income_mean'])},
         'selangor_percentiles': bands,
-        'category_thresholds': {'m40': 5860, 't20': 12680},
-        'category_note': 'National B40/M40/T20 cutoffs are rounded 2024 report thresholds; not Selangor thresholds.',
+        'category_thresholds': {'m40': m40, 't20': t20},
+        'category_note': 'National B40/M40/T20 cutoffs: maximum P40/P80 income rounded to nearest RM10; not Selangor thresholds.',
         'sources': {name: BASE + name + '.csv' for name in NAMES},
     }
-    if year == 2024 and result['medians'] != {'Malaysia': 7017, 'Selangor': 10726, 'Kuala Langat': 10583}:
+    if year == 2024 and (result['medians'] != {'Malaysia': 7017, 'Selangor': 10726, 'Kuala Langat': 10583} or (m40,t20) != (5860,12680)):
         raise ValueError('2024 source values differ from published figures; investigate before publishing')
     return result
 
