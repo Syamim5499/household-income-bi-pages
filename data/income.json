@@ -1,0 +1,627 @@
+{
+  "survey_year": 2024,
+  "generated_utc": "2026-09-27T12:20:44+00:00",
+  "medians": {
+    "Malaysia": 7017,
+    "Selangor": 10726,
+    "Kuala Langat": 10583
+  },
+  "means": {
+    "Malaysia": 9155,
+    "Selangor": 13296,
+    "Kuala Langat": 11714
+  },
+  "selangor_percentiles": [
+    {
+      "percentile": 1,
+      "minimum": null,
+      "median": 2604,
+      "maximum": 3027
+    },
+    {
+      "percentile": 2,
+      "minimum": 3033,
+      "median": 3304,
+      "maximum": 3512
+    },
+    {
+      "percentile": 3,
+      "minimum": 3517,
+      "median": 3784,
+      "maximum": 3967
+    },
+    {
+      "percentile": 4,
+      "minimum": 3968,
+      "median": 4148,
+      "maximum": 4304
+    },
+    {
+      "percentile": 5,
+      "minimum": 4306,
+      "median": 4443,
+      "maximum": 4567
+    },
+    {
+      "percentile": 6,
+      "minimum": 4567,
+      "median": 4723,
+      "maximum": 4837
+    },
+    {
+      "percentile": 7,
+      "minimum": 4842,
+      "median": 4972,
+      "maximum": 5067
+    },
+    {
+      "percentile": 8,
+      "minimum": 5073,
+      "median": 5159,
+      "maximum": 5253
+    },
+    {
+      "percentile": 9,
+      "minimum": 5254,
+      "median": 5395,
+      "maximum": 5502
+    },
+    {
+      "percentile": 10,
+      "minimum": 5505,
+      "median": 5583,
+      "maximum": 5643
+    },
+    {
+      "percentile": 11,
+      "minimum": 5643,
+      "median": 5701,
+      "maximum": 5770
+    },
+    {
+      "percentile": 12,
+      "minimum": 5770,
+      "median": 5856,
+      "maximum": 5913
+    },
+    {
+      "percentile": 13,
+      "minimum": 5917,
+      "median": 6039,
+      "maximum": 6189
+    },
+    {
+      "percentile": 14,
+      "minimum": 6190,
+      "median": 6323,
+      "maximum": 6402
+    },
+    {
+      "percentile": 15,
+      "minimum": 6404,
+      "median": 6487,
+      "maximum": 6559
+    },
+    {
+      "percentile": 16,
+      "minimum": 6561,
+      "median": 6634,
+      "maximum": 6706
+    },
+    {
+      "percentile": 17,
+      "minimum": 6710,
+      "median": 6756,
+      "maximum": 6797
+    },
+    {
+      "percentile": 18,
+      "minimum": 6798,
+      "median": 6845,
+      "maximum": 6915
+    },
+    {
+      "percentile": 19,
+      "minimum": 6917,
+      "median": 6954,
+      "maximum": 7018
+    },
+    {
+      "percentile": 20,
+      "minimum": 7021,
+      "median": 7184,
+      "maximum": 7375
+    },
+    {
+      "percentile": 21,
+      "minimum": 7380,
+      "median": 7492,
+      "maximum": 7588
+    },
+    {
+      "percentile": 22,
+      "minimum": 7591,
+      "median": 7647,
+      "maximum": 7714
+    },
+    {
+      "percentile": 23,
+      "minimum": 7723,
+      "median": 7777,
+      "maximum": 7834
+    },
+    {
+      "percentile": 24,
+      "minimum": 7835,
+      "median": 7882,
+      "maximum": 7946
+    },
+    {
+      "percentile": 25,
+      "minimum": 7946,
+      "median": 7998,
+      "maximum": 8042
+    },
+    {
+      "percentile": 26,
+      "minimum": 8043,
+      "median": 8164,
+      "maximum": 8267
+    },
+    {
+      "percentile": 27,
+      "minimum": 8279,
+      "median": 8374,
+      "maximum": 8431
+    },
+    {
+      "percentile": 28,
+      "minimum": 8432,
+      "median": 8464,
+      "maximum": 8489
+    },
+    {
+      "percentile": 29,
+      "minimum": 8490,
+      "median": 8520,
+      "maximum": 8544
+    },
+    {
+      "percentile": 30,
+      "minimum": 8545,
+      "median": 8592,
+      "maximum": 8639
+    },
+    {
+      "percentile": 31,
+      "minimum": 8640,
+      "median": 8673,
+      "maximum": 8711
+    },
+    {
+      "percentile": 32,
+      "minimum": 8713,
+      "median": 8759,
+      "maximum": 8792
+    },
+    {
+      "percentile": 33,
+      "minimum": 8792,
+      "median": 8821,
+      "maximum": 8862
+    },
+    {
+      "percentile": 34,
+      "minimum": 8862,
+      "median": 8896,
+      "maximum": 8948
+    },
+    {
+      "percentile": 35,
+      "minimum": 8950,
+      "median": 9002,
+      "maximum": 9077
+    },
+    {
+      "percentile": 36,
+      "minimum": 9077,
+      "median": 9130,
+      "maximum": 9169
+    },
+    {
+      "percentile": 37,
+      "minimum": 9174,
+      "median": 9220,
+      "maximum": 9269
+    },
+    {
+      "percentile": 38,
+      "minimum": 9270,
+      "median": 9322,
+      "maximum": 9381
+    },
+    {
+      "percentile": 39,
+      "minimum": 9388,
+      "median": 9431,
+      "maximum": 9470
+    },
+    {
+      "percentile": 40,
+      "minimum": 9471,
+      "median": 9515,
+      "maximum": 9572
+    },
+    {
+      "percentile": 41,
+      "minimum": 9573,
+      "median": 9617,
+      "maximum": 9682
+    },
+    {
+      "percentile": 42,
+      "minimum": 9683,
+      "median": 9727,
+      "maximum": 9801
+    },
+    {
+      "percentile": 43,
+      "minimum": 9804,
+      "median": 9875,
+      "maximum": 9989
+    },
+    {
+      "percentile": 44,
+      "minimum": 9992,
+      "median": 10096,
+      "maximum": 10160
+    },
+    {
+      "percentile": 45,
+      "minimum": 10161,
+      "median": 10210,
+      "maximum": 10272
+    },
+    {
+      "percentile": 46,
+      "minimum": 10274,
+      "median": 10313,
+      "maximum": 10358
+    },
+    {
+      "percentile": 47,
+      "minimum": 10359,
+      "median": 10399,
+      "maximum": 10452
+    },
+    {
+      "percentile": 48,
+      "minimum": 10453,
+      "median": 10498,
+      "maximum": 10539
+    },
+    {
+      "percentile": 49,
+      "minimum": 10541,
+      "median": 10583,
+      "maximum": 10624
+    },
+    {
+      "percentile": 50,
+      "minimum": 10624,
+      "median": 10676,
+      "maximum": 10726
+    },
+    {
+      "percentile": 51,
+      "minimum": 10728,
+      "median": 10768,
+      "maximum": 10803
+    },
+    {
+      "percentile": 52,
+      "minimum": 10803,
+      "median": 10842,
+      "maximum": 10886
+    },
+    {
+      "percentile": 53,
+      "minimum": 10887,
+      "median": 10945,
+      "maximum": 10996
+    },
+    {
+      "percentile": 54,
+      "minimum": 10997,
+      "median": 11039,
+      "maximum": 11085
+    },
+    {
+      "percentile": 55,
+      "minimum": 11086,
+      "median": 11123,
+      "maximum": 11167
+    },
+    {
+      "percentile": 56,
+      "minimum": 11170,
+      "median": 11223,
+      "maximum": 11281
+    },
+    {
+      "percentile": 57,
+      "minimum": 11281,
+      "median": 11314,
+      "maximum": 11363
+    },
+    {
+      "percentile": 58,
+      "minimum": 11366,
+      "median": 11415,
+      "maximum": 11461
+    },
+    {
+      "percentile": 59,
+      "minimum": 11463,
+      "median": 11509,
+      "maximum": 11576
+    },
+    {
+      "percentile": 60,
+      "minimum": 11584,
+      "median": 11744,
+      "maximum": 11894
+    },
+    {
+      "percentile": 61,
+      "minimum": 11895,
+      "median": 12037,
+      "maximum": 12177
+    },
+    {
+      "percentile": 62,
+      "minimum": 12179,
+      "median": 12264,
+      "maximum": 12350
+    },
+    {
+      "percentile": 63,
+      "minimum": 12351,
+      "median": 12442,
+      "maximum": 12508
+    },
+    {
+      "percentile": 64,
+      "minimum": 12512,
+      "median": 12620,
+      "maximum": 12672
+    },
+    {
+      "percentile": 65,
+      "minimum": 12674,
+      "median": 12735,
+      "maximum": 12808
+    },
+    {
+      "percentile": 66,
+      "minimum": 12809,
+      "median": 12863,
+      "maximum": 12930
+    },
+    {
+      "percentile": 67,
+      "minimum": 12931,
+      "median": 13013,
+      "maximum": 13083
+    },
+    {
+      "percentile": 68,
+      "minimum": 13086,
+      "median": 13191,
+      "maximum": 13253
+    },
+    {
+      "percentile": 69,
+      "minimum": 13257,
+      "median": 13326,
+      "maximum": 13409
+    },
+    {
+      "percentile": 70,
+      "minimum": 13409,
+      "median": 13517,
+      "maximum": 13598
+    },
+    {
+      "percentile": 71,
+      "minimum": 13602,
+      "median": 13663,
+      "maximum": 13727
+    },
+    {
+      "percentile": 72,
+      "minimum": 13727,
+      "median": 13796,
+      "maximum": 13859
+    },
+    {
+      "percentile": 73,
+      "minimum": 13859,
+      "median": 13949,
+      "maximum": 14053
+    },
+    {
+      "percentile": 74,
+      "minimum": 14055,
+      "median": 14151,
+      "maximum": 14216
+    },
+    {
+      "percentile": 75,
+      "minimum": 14217,
+      "median": 14330,
+      "maximum": 14465
+    },
+    {
+      "percentile": 76,
+      "minimum": 14473,
+      "median": 14580,
+      "maximum": 14785
+    },
+    {
+      "percentile": 77,
+      "minimum": 14786,
+      "median": 15100,
+      "maximum": 15229
+    },
+    {
+      "percentile": 78,
+      "minimum": 15234,
+      "median": 15363,
+      "maximum": 15492
+    },
+    {
+      "percentile": 79,
+      "minimum": 15492,
+      "median": 15637,
+      "maximum": 15764
+    },
+    {
+      "percentile": 80,
+      "minimum": 15769,
+      "median": 15899,
+      "maximum": 16033
+    },
+    {
+      "percentile": 81,
+      "minimum": 16051,
+      "median": 16234,
+      "maximum": 16490
+    },
+    {
+      "percentile": 82,
+      "minimum": 16495,
+      "median": 16670,
+      "maximum": 16831
+    },
+    {
+      "percentile": 83,
+      "minimum": 16832,
+      "median": 17052,
+      "maximum": 17214
+    },
+    {
+      "percentile": 84,
+      "minimum": 17216,
+      "median": 17411,
+      "maximum": 17703
+    },
+    {
+      "percentile": 85,
+      "minimum": 17704,
+      "median": 17912,
+      "maximum": 18094
+    },
+    {
+      "percentile": 86,
+      "minimum": 18105,
+      "median": 18383,
+      "maximum": 18611
+    },
+    {
+      "percentile": 87,
+      "minimum": 18615,
+      "median": 18909,
+      "maximum": 19191
+    },
+    {
+      "percentile": 88,
+      "minimum": 19216,
+      "median": 19546,
+      "maximum": 19854
+    },
+    {
+      "percentile": 89,
+      "minimum": 19868,
+      "median": 20324,
+      "maximum": 20798
+    },
+    {
+      "percentile": 90,
+      "minimum": 20801,
+      "median": 21131,
+      "maximum": 21617
+    },
+    {
+      "percentile": 91,
+      "minimum": 21623,
+      "median": 22129,
+      "maximum": 22565
+    },
+    {
+      "percentile": 92,
+      "minimum": 22583,
+      "median": 23105,
+      "maximum": 23944
+    },
+    {
+      "percentile": 93,
+      "minimum": 23956,
+      "median": 24599,
+      "maximum": 25165
+    },
+    {
+      "percentile": 94,
+      "minimum": 25188,
+      "median": 25869,
+      "maximum": 26485
+    },
+    {
+      "percentile": 95,
+      "minimum": 26498,
+      "median": 27586,
+      "maximum": 28901
+    },
+    {
+      "percentile": 96,
+      "minimum": 28970,
+      "median": 30345,
+      "maximum": 32275
+    },
+    {
+      "percentile": 97,
+      "minimum": 32275,
+      "median": 34486,
+      "maximum": 37648
+    },
+    {
+      "percentile": 98,
+      "minimum": 37686,
+      "median": 39612,
+      "maximum": 43484
+    },
+    {
+      "percentile": 99,
+      "minimum": 43600,
+      "median": 50572,
+      "maximum": 63136
+    },
+    {
+      "percentile": 100,
+      "minimum": 63743,
+      "median": 84126,
+      "maximum": null
+    }
+  ],
+  "category_thresholds": {
+    "m40": 5860,
+    "t20": 12680
+  },
+  "category_note": "National B40/M40/T20 cutoffs are rounded 2024 report thresholds; not Selangor thresholds.",
+  "sources": {
+    "hh_income": "https://storage.dosm.gov.my/hies/hh_income.csv",
+    "hh_income_state": "https://storage.dosm.gov.my/hies/hh_income_state.csv",
+    "hh_income_district": "https://storage.dosm.gov.my/hies/hh_income_district.csv",
+    "hies_state_percentile": "https://storage.dosm.gov.my/hies/hies_state_percentile.csv"
+  }
+}
